@@ -9,7 +9,7 @@ router.get('/:id', BookController.show);
 router.post('', [
     body('title').notEmpty(),
     body('author').notEmpty(),
-    body('publishYear').notEmpty(),
+    body('publishYear').notEmpty().isNumeric(),
 ], ErrorHandler, BookController.store);
 router.delete('/:id', BookController.destroy);
 router.delete('/', BookController.destroyAll);
