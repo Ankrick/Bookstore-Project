@@ -10,13 +10,18 @@ Run Locally
 Clone the project
 
    git clone https://github.com/Ankrick/Bookstore-Project.git
+   
 Go to the frontend directory
 
+
   cd Bookstore-Project
+  
   cd frontend
+  
 Install dependencies
 
   npm install
+  
 Start the server
 
 Go to the backend directory
